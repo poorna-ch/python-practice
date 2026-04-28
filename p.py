@@ -87,13 +87,13 @@
 # nayi1.bark()
 # nayi2.bark()
 
-class human:
-    def __init__(self,name,age):
-          self.name=name
-          self.age=age
-    def walk (self):
-          print(f"Name:{self.name} of,age:{self.age} is walking")
+# class human:
+#     def __init__(self,name,age):
+#           self.name=name
+#           self.age=age
+#     def walk (self):
+#           print(f"Name:{self.name} of,age:{self.age} is walking")
 
-n1=human("poorna",22)
-n2=human("Alex",20)
-n1.walk()
+# n1=human("poorna",22)
+# n2=human("Alex",20)
+# n1.walk()
