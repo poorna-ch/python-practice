@@ -97,3 +97,33 @@
 # n1=human("poorna",22)
 # n2=human("Alex",20)
 # n1.walk()
+
+
+# abstraction
+# class car:
+#     def startengine(self):
+#         print("engine started")
+#     def accelerate(self):
+#         print("car started")
+#     def brake(self):
+#         print("The car stopped")
+# c1=car()
+# c1.accelerate()
+# c1.startengine()
+
+#  encapsulation
+
+# class database:
+#     def __init__(self):
+#         self.storage={}                here --> if u replace it as __storage then it will be an private attribute where it cant be acessed by other methods
+#     def write(self,key,value):
+#         self.storage[key]=value
+#     def read(self,key):
+#         if key in self.storage:
+#             print(self.storage[key])
+#         else :
+#             print("data doesnt exist")
+# db=database()
+# db.write("name","poorna")
+# db.read("name")
+# print(db.storage)
