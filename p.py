@@ -127,3 +127,33 @@
 # db.write("name","poorna")
 # db.read("name")
 # print(db.storage)
+
+# Inheritance
+# class user:
+#     def __init__(self,username):
+#         self.username=username
+#     def login(self):
+#         print(F"{self.username} logined sucessfully")
+# class admin(user):
+#     def delete_user(self):
+#         print("user has been deleted")
+# a=admin("porna")
+# a.login()
+# a.delete_user()
+
+# polymorphism
+
+# class animals:
+#     def make_sound(self):                       ----->here make_sound is an method that has many form 
+#         print("animal is making sound")
+# class dog(animals):
+#     def make_sound(self):
+#         print("bark")
+# class cat(animals):
+#     def make_sound(self):
+#         print("meow")
+# anima_l=[dog(),cat()]
+# for animal in anima_l:
+#     animal.make_sound()
+        
+    
