@@ -143,17 +143,18 @@
 
 # polymorphism
 
-# class animals:
-#     def make_sound(self):                       ----->here make_sound is an method that has many form 
-#         print("animal is making sound")
-# class dog(animals):
-#     def make_sound(self):
-#         print("bark")
-# class cat(animals):
-#     def make_sound(self):
-#         print("meow")
-# anima_l=[dog(),cat()]
-# for animal in anima_l:
-#     animal.make_sound()
+class animals:
+
+    # def make_sound(self):                       ----->here make_sound is an method that has many forms
+        print("animal is making sound")
+class dog(animals):
+    def make_sound(self):
+        print("bark")
+class cat(animals):
+    def make_sound(self):
+        print("meow")
+anima_l=[dog(),cat()]
+for animal in anima_l:
+    animal.make_sound()
         
     
