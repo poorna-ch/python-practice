@@ -143,18 +143,48 @@
 
 # polymorphism
 
-class animals:
+# class animals:
 
-    # def make_sound(self):                       ----->here make_sound is an method that has many forms
-        print("animal is making sound")
-class dog(animals):
-    def make_sound(self):
-        print("bark")
-class cat(animals):
-    def make_sound(self):
-        print("meow")
-anima_l=[dog(),cat()]
-for animal in anima_l:
-    animal.make_sound()
+#     # def make_sound(self):                       ----->here make_sound is an method that has many forms
+#         print("animal is making sound")
+# class dog(animals):
+#     def make_sound(self):
+#         print("bark")
+# class cat(animals):
+#     def make_sound(self):
+#         print("meow")
+# anima_l=[dog(),cat()]
+# for animal in anima_l:
+#     animal.make_sound()
+
+# error and exception handling
+# . SYNTAX ERROR ----> MISSING A COLON OR BRACES DURING THE EXECUTION OF THE PROGRAM
+#RUNTIME EXCEPTION --> ERROR OCCURED DURING THE EXECUTION OF THE PROGRAM
+# a=int(input("a:"))
+# b=int(input("b:"))
+# try:
+#     print(a/b)
+# except Exception as e:
+#                                 #  ----------> HERE Exception IS AN CLASS THAT INVOLVE ALL ERROR 
+#     print(f"there is an error:{e}")
+# else:
+#     print("enu error illa")
+# finally:
+#     print("program ended, if error comes or not i dont care in your program but its executed")
+
+
+# try:
+#     boy= str(input("enter boy name u want to marry?"))
+#     if boy!="poorna":
+#         print("you shd marry only poorna")
+#     else:
+#         print("good u have got ur gem")
+# except Exception as e:
+#     print(f"error:{e}")
+# finally:
+#     print("make sure u have selected correct gem poorna")
+
+
+
         
     
