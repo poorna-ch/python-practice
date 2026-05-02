@@ -159,7 +159,7 @@
 
 # error and exception handling
 # . SYNTAX ERROR ----> MISSING A COLON OR BRACES DURING THE EXECUTION OF THE PROGRAM
-#RUNTIME EXCEPTION --> ERROR OCCURED DURING THE EXECUTION OF THE PROGRAM
+#. RUNTIME EXCEPTION --> ERROR OCCURED DURING THE EXECUTION OF THE PROGRAM
 # a=int(input("a:"))
 # b=int(input("b:"))
 # try:
@@ -185,6 +185,20 @@
 #     print("make sure u have selected correct gem poorna")
 
 
+# FILE HANDLING ----> used to read from or wite to a files
+# and also used to store data permanently
 
+
+# file = open ("notes.txt","r")
+# content = file.read()
+# print(content)
+# file.close()
         
     
+# Mode
+# 'r' Read (default mode)
+# 'w' Write (overwrites if file exists)
+# 'a' Append (adds content at the end) Add data without deleting old
+# 'x' Create (fails if file exists)
+# 'b' Binary mode
+# 't' Text mode (default)
