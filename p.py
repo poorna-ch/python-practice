@@ -202,3 +202,15 @@
 # 'x' Create (fails if file exists)
 # 'b' Binary mode
 # 't' Text mode (default)
+
+# file=open("student.txt","a")
+# file.write("poorna /n")
+# file.write(" rani ")
+# file.close()
+try:
+    file.open("student.txt","x")
+    file.write("poorna")
+except Exception as e:
+    print("error:{e}")
+finally:
+    file.close()
