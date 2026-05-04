@@ -207,10 +207,22 @@
 # file.write("poorna /n")
 # file.write(" rani ")
 # file.close()
-try:
-    file.open("student.txt","x")
-    file.write("poorna")
-except Exception as e:
-    print("error:{e}")
-finally:
-    file.close()
+# try:
+#     file.open("employee.txt","x")
+#     file.write("poorna")
+# except Exception as e:
+#     print("error:{e}")
+# finally:
+#     file.close()
+
+# students=["poorna","alex","bob"]
+# file=open("class.txt","w")
+# for student in students:
+#     file.write(f"{student}\n")
+# file.close()
+
+# Modules in python 
+#  1.math module
+1. library --> group of packages and modules
+2. books --> group of match
+3.paper --> modules--> python file
